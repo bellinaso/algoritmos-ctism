@@ -1,0 +1,50 @@
+a) Uma empresa trabalha com bônus de gratificação por tempo de trabalho extra. Desenvolva um algoritmo onde o usuário deverá entrar com o seu nome, as horas extras trabalhadas e a quantidade de faltas. O Algoritmo deverá calcular quanto o trabalhador irá receber, sendo as horas extras subtraído de um terço das faltas.
+Se o resultado do calculo for maior que 40, receberá um bônus de R$50,00
+Se for for maior que 30 e menor que 40, receberá R$40,00 de bônus.
+Se for maior que 20 e menor que 30, receberá R$30,00 de bônus.
+Se for maior que 10 e menor que 20, receberá R$20,00 de bônus.
+E por fim se o valor for menor ou igual a 10, receberá R$10,00 de bônus.
+Ao final do programa, ele deverá mostrar ao usuário o nome e quanto receberá de bônus, o número de faltas e horas extras trabalhadas.
+
+1° teste:
+Entradas: A, 20, 2.
+Saídas:
+-> Sera pago 20 reais de gratificação
+-> A tera um aumento de 20
+-> Numero de faltas 2 e valor das horas extras 20
+
+2° teste:
+Entradas: B, 15, 10
+Saídas:
+-> Sera pago 10 reais de gratificação
+-> B tera um aumento de 10
+-> Numero de faltas 10 e valor das horas extras 15
+
+3° teste:
+Entradas: D, 30, 0
+Saídas:
+-> Sera pago 30 reais de gratificação
+-> D tera um aumento de 30
+-> Numero de faltas 0 e valor das horas extras 30
+
+
+
+b) Desenvolva um algoritmo onde o usuário deverá entrar com a sua idade. O Programa imprimirá ao usuário de quanto em quanto tempo ele deverá atualizar os exames médicos da carteira de motorista, seguindo as comparações:
+Se a idade estiver entre 0 e 17, o usuário não possui habilitação.
+Se a idade estiver entre 18 e 19, deverá renovar a cada 5 anos.
+E se a idade for maior ou igual a 65, deverá renovar a cada 3 anos.
+
+1° teste:
+Entrada: 15
+Saída:
+-> Não possui carteira de habilitação
+
+2° teste:
+Entrada: 25
+Saída:
+-> 
+
+3° teste:
+Entrada: 75
+Saída:
+-> Renove exames a cada 3 anos.
